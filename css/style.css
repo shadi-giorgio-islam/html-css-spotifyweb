@@ -63,7 +63,7 @@ main{
 }
 @media (max-width: 768px){
   .nav-left{
-    width: auto;
+    width: 80px;
   }
   .nav-left .nav-left-header{
     text-align: center;
@@ -181,7 +181,7 @@ main{
 }
 /* fine menu main */
 .main-content{
-  width: calc(100% - 200px);
+  width: calc(100% - 250px);
   height: 100%;
   font-size: 50px;
   overflow: auto;
@@ -193,7 +193,7 @@ main{
   position: fixed;
   top: 0;
   right: 0;
-  width: calc(100% - 200px);
+  width: calc(100% - 250px);
   height: 80px;
   line-height: 60px;
   background-color: rgba(0, 0, 0, 0.75);
@@ -201,16 +201,28 @@ main{
   z-index: 1;
 }
 .call-to-action .btn{
-  padding: 5px 10px;
+  padding: 10px 20px;
   border-radius: 20px;
   border: 1px solid white;
   margin-right: 30px;
 }
+.call-to-action .btn:hover{
+  font-size: 17px;
+}
+
 .call-to-action a.btn{
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   text-transform: uppercase;
   text-decoration: none;
+}
+@media (max-width: 768px){
+  .call-to-action{
+    width: calc(100% - 80px);
+  }
+  .main-content{
+    width: calc(100% - 80px);
+  }
 }
 /* inizio footer */
 footer{
