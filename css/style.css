@@ -426,6 +426,10 @@ footer .footer-middle .footer-middle-top{
 footer .footer-middle .footer-middle-top i{
   margin: 0 10px;
 }
+footer .footer-middle .footer-middle-top i.fa-play-circle{
+  width: 48px;
+  text-align: center;
+}
 footer .footer-middle .footer-middle-top i.fa-play-circle:hover{
   font-size:3em;
 }
