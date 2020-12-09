@@ -55,6 +55,7 @@ main{
 }
 .nav-left .nav-left-header .nav-left-header-list ul li:first-child{
   border-left: 3px solid #A7F62D;
+  padding: 5px 20px 5px 17px;
 }
 .nav-left .nav-left-header .nav-left-header-list ul li a{
   color: #717171;
@@ -422,6 +423,9 @@ footer .footer-middle .footer-middle-top{
   justify-content: space-around;
   align-items: center;
   flex-wrap: nowrap;
+}
+footer .footer-middle .footer-middle-top i{
+  margin: 0 10px;
 }
 footer .footer-middle .footer-middle-top i.fa-play-circle:hover{
   font-size:3em;
